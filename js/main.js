@@ -14,6 +14,12 @@ if (son1 && son2) {
             test.innerHTML = ("2-chi kiritilgan belgi son emas");
             console.log("2-chi kiritilgan belgi son emas");
         }
+        if (son1 == 0) {
+            console.log("0 soni yo'q son");
+        }
+        if (son2 == 0) {
+            console.log("0 soni yo'q son");
+        }
 
     } else if (a == '+') {
         test.innerHTML = ("Javob =", Number(son1) + Number(son2));
